@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+//import HookCounter from './component/HookCounter';
+//import HookCounterTwo from './component/HookCounterTwo';
+//import HookCounter3 from './component/HookCounter3';
+//import HookCounter4 from './component/HookCounter4';
+//import HookCounter1 from './component/HookCounter1';
+//import Hookmouse from './component/Hookmouse';
+//import Mousecontainer from './component/Mousecontainer';
+//import IntervalHookcounter from './component/IntervalHookcounter';
+import Datafetching from './component/Datafetching';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Datafetching />
     </div>
   );
 }
